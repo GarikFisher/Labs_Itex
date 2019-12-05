@@ -1,0 +1,40 @@
+#block1, #block2, #block3 {
+	background-color: white;
+	width: 450px;
+	padding: 10px;
+	display: none;
+	border: 1px solid grey;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} 
+
+p {
+	margin: 0;
+}
+
+.introduction:hover + #block1 {
+	display: block;
+}
+.information:hover + #block2 {
+	display: block;
+}
+.contact:hover + #block3 {
+	display: block;
+}
+
+.red {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+}	
+
+.blue {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	left: 150px;
+}	
+.img {
+	float: left;
+}
